@@ -1,0 +1,55 @@
+@use '../../styles/mixins' as *;
+
+.wrapper {
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 16px;
+  background-color: transparent;
+  position: relative;
+  outline: none;
+  overflow-y: hidden;
+
+  &:focus {
+    outline: 2px solid #42a5f5;
+    outline-offset: 4px;
+    border-radius: 12px;
+  }
+
+  @include tablet {
+    padding: 12px;
+    width: 100%;
+  }
+
+  @include mobile {
+    padding: 8px;
+  }
+}
+
+.videoContainer {
+  position: relative;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.video {
+  width: 100%;
+  border-radius: 12px;
+
+  background: transparent;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.qualitySelect {
+  min-width: 40px;
+}

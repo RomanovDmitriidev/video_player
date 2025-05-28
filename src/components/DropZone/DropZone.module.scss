@@ -1,0 +1,15 @@
+.dropZone {
+  border: 2px dashed #90caf9;
+  border-radius: 10px;
+  padding: 24px;
+  text-align: center;
+  color: #666;
+  background-color: rgba(144, 202, 249, 0.05);
+  transition: background 0.3s;
+  font-size: 15px;
+  font-weight: 500;
+
+  &:hover {
+    background-color: rgba(144, 202, 249, 0.15);
+  }
+}

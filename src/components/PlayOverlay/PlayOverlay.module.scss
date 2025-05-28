@@ -1,0 +1,12 @@
+.overlayPlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  border-radius: 15px;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  pointer-events: none;
+  animation: fadeIn 0.4s ease forwards;
+}

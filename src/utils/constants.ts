@@ -1,0 +1,9 @@
+export const MAX_VOLUME_VALUE = 100;
+export const MIN_VOLUME_VALUE = 0;
+export const DEFAULT_VOLUME_VALUE = 0.7; // 1 - max
+export const DEFAULT_QUALITY = -1; // -1 - auto
+export const SEEK_DURATION = 3;
+export const DEFAULT_URL = 'https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8';
+export const VOLUME_STEP = 0.1;
+export const LOADING_SPINNER_SIZE = 48;
+export const CONTROL_PANEL_HIDING_DELAY = 3000;
